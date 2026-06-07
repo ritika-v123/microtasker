@@ -38,7 +38,7 @@ GOOD:
 * Each task should take 5–10 minutes.
 * Split any task that would take more than 10 minutes.
 * Order tasks logically based on dependencies.
-* Generate 5–70tasks whenever appropriate.
+* Generate 5–70 tasks whenever appropriate.
 * Avoid vague tasks such as:
 
   * Learn Angular

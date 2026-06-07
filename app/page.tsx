@@ -111,7 +111,7 @@ export default function Home() {
       const planData = await planRes.json()
       setSavedPlan(planData.plan)
       setTasks([]) // switch to DB-backed view
-      setSavedMsg('Saved! Toggles now sync to database.')
+     // setSavedMsg('Saved! Toggles now sync to database.')
     } catch (e: unknown) {
       setError(e instanceof Error ? e.message : 'Failed to save')
     } finally {
@@ -171,7 +171,7 @@ export default function Home() {
                 {isSaved && (
                   <p className="text-xs text-green-600 mt-0.5 flex items-center gap-1">
                     <span className="w-1.5 h-1.5 rounded-full bg-green-500 inline-block" />
-                    Saved — toggles sync to database automatically
+                    {/* Saved — toggles sync to database automatically */}
                   </p>
                 )}
               </div>

@@ -122,7 +122,7 @@ export default function PlanDetailPage({ params }: { params: Promise<{ id: strin
         {/* Sync indicator */}
         <p className="text-xs text-green-600 mb-4 flex items-center gap-1.5">
           <span className="w-1.5 h-1.5 rounded-full bg-green-500 inline-block" />
-          Click any task to toggle completion — changes save automatically
+          {/* Click any task to toggle completion — changes save automatically */}
         </p>
 
         {/* Task list */}
